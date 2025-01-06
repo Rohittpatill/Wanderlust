@@ -13,11 +13,13 @@
     />
     <script src="https://kit.fontawesome.com/655e15230e.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/rating.css">
   </head>
   <body>
     <%- include("../includes/navbar.ejs") %>
     
-    <div class="container"><%- body %></div>
+    <div class="container">
+    <%- include("../includes/flash.ejs") %> <%- body %></div>
 
     <%- include("../includes/footer.ejs") %>
 
